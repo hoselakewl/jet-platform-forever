@@ -1,0 +1,7 @@
+[versions]
+observation = "2.3.11"
+letter = "1.6.7"
+
+[libraries]
+observation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "observation" }
+letter = { module = "io.ktor:ktor-server-call-logging", version.ref = "letter" }
