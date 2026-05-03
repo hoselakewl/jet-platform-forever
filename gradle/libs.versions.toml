@@ -1,6 +1,6 @@
 [versions]
 observation = "2.3.11"
-letter = "1.6.7"
+letter = "3.4.3"
 
 [libraries]
 observation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "observation" }
